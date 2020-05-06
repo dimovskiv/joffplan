@@ -604,7 +604,6 @@ hr {
 }
 
 .itemDubai .devpImgContainer {
-  height: 170px;
   position: relative;
   text-align: center;
   color: white;
@@ -612,6 +611,7 @@ hr {
 
 .itemDubai .devpImgContainer .img-fluid {
   width: 100%;
+  height: 200px;
 }
 
 .itemDubai .devpImgContainer .centered {
@@ -621,7 +621,7 @@ hr {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 30px;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .itemDubai img {
@@ -725,11 +725,13 @@ hr {
 }
 
 .itemDubai .devpImgContainer .centered {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .aboutD {
   padding: 20px;
+  padding-top: 40px !important;
+  padding-bottom: 0px !important;
 }
 
 .aboutD p {
@@ -753,6 +755,10 @@ hr {
 
 .aboutItem .img-fluid {
   opacity: 0.8;
+}
+
+.aboutItem p {
+  line-height: 2;
 }
 
 .overview {
@@ -835,5 +841,64 @@ hr {
   color: white;
   background-color: #67C3B5;
   border-radius: 2%;
+}
+
+.containerDevs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding-top: 9.5rem;
+}
+
+.containerDevsRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 180px;
+  width: 100%;
+}
+
+.imageCont {
+  height: 180px;
+  width: 100%;
+  position: relative;
+  margin: 3px;
+}
+
+.center5 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  font-size: 22px;
+  background: white !important;
+  opacity: 1;
+  width: 100%;
+}
+
+.phone {
+  width: 33.3%;
+  text-align: center;
+  border: none;
+}
+
+.phone .fas, .phone .fab {
+  color: #373739;
+}
+
+.img150 {
+  height: 150px;
+  width: 100%;
+  opacity: 1 !important;
 }
 /*# sourceMappingURL=style.css.map */

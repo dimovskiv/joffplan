@@ -616,7 +616,8 @@ hr {
      
   .devpImgContainer {
   
-    height:170px;
+    
+
     position:relative;
     text-align: center;
     color: white;
@@ -624,6 +625,7 @@ hr {
   
     .img-fluid {
       width:100%;
+      height:200px;
     }
     
   
@@ -633,7 +635,7 @@ hr {
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 30px;
-      opacity:0.7;
+      opacity:1;
     }
   
     
@@ -747,7 +749,7 @@ hr {
         }
 
         .centered {
-          opacity:0.6;
+          opacity:0.9;
         }
       }
     }
@@ -755,6 +757,8 @@ hr {
     .aboutD {
 
       padding:20px;
+      padding-top:40px !important;
+      padding-bottom:0px !important;
 
        p {
         color:white;
@@ -779,6 +783,10 @@ hr {
 .aboutItem {
   .img-fluid {
     opacity:0.8;
+  }
+
+  p {
+    line-height:2;
   }
 }
 
@@ -850,6 +858,67 @@ justify-content: space-between;
     border:none;
     color:white;
     background-color:$misc-color;
-    border-radius:2%;
+    border-radius:2%; 
   }
+}
+
+.containerDevs {
+  display:flex;
+  flex-direction:column;
+
+  width:100%;
+  padding-top:9.5rem;
+
+}
+
+.containerDevsRow {
+  display:flex;
+  flex-direction:row;
+  height:180px;
+  width:100%;
+
+  
+
+}
+
+.imageCont {
+
+  height:180px;
+  width:100%;
+position:relative;
+margin:3px;
+
+
+ 
+  
+}
+
+
+.center5 {
+  position: absolute;
+
+  display:flex;
+border:none;
+  font-size: 22px;
+background:white !important;
+opacity: 1;
+width:100%;
+  
+}
+
+.phone {
+  width:33.3%;
+  text-align: center;
+  border:none;
+
+  .fas, .fab {
+    color: $primary-color;
+  }
+}
+
+.img150 {
+  height:150px;
+  width:100%;
+  opacity:1 !important;
+  
 }
