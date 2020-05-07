@@ -901,4 +901,16 @@ hr {
   width: 100%;
   opacity: 1 !important;
 }
+
+.mastheadProject {
+  padding-top: 9.5rem;
+}
+
+.aboutItem ul {
+  color: white;
+}
+
+.aboutItem tr, .aboutItem th {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
